@@ -42,7 +42,7 @@ namespace Inheritance
 
     class MainApp
     {
-        static void Main(string[] arg)
+        static void Main(string[] args)
         {
             Base a = new Base("a");
             a.BaseMethod();

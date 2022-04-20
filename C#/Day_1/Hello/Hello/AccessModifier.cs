@@ -24,7 +24,7 @@ namespace AccessModifier
 
     class MainApp
     {
-        static void Main(string[] arg)
+        static void Main(string[] args)
         {
             try
             {
