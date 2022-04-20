@@ -5,4 +5,20 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Constructor.cs" />
+    <Compile Remove="DeepCopy.cs" />
+    <Compile Remove="Hello.cs" />
+    <Compile Remove="StaticField.cs" />
+    <Compile Remove="ThisConstructor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Constructor.cs" />
+    <None Include="DeepCopy.cs" />
+    <None Include="Hello.cs" />
+    <None Include="StaticField.cs" />
+    <None Include="ThisConstructor.cs" />
+  </ItemGroup>
+
 </Project>

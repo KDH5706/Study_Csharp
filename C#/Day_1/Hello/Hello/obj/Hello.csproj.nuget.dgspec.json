@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\Hello\\Hello\\Hello.csproj": {}
+    "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\C#\\Day_1\\Hello\\Hello\\Hello.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\Hello\\Hello\\Hello.csproj": {
+    "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\C#\\Day_1\\Hello\\Hello\\Hello.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\Hello\\Hello\\Hello.csproj",
+        "projectUniqueName": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\C#\\Day_1\\Hello\\Hello\\Hello.csproj",
         "projectName": "Hello",
-        "projectPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\Hello\\Hello\\Hello.csproj",
+        "projectPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\C#\\Day_1\\Hello\\Hello\\Hello.csproj",
         "packagesPath": "C:\\Users\\PKNU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\Hello\\Hello\\obj\\",
+        "outputPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\C#\\Day_1\\Hello\\Hello\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PKNU\\AppData\\Roaming\\NuGet\\NuGet.Config",
