@@ -6,17 +6,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AccessModifier.cs" />
     <Compile Remove="Constructor.cs" />
     <Compile Remove="DeepCopy.cs" />
     <Compile Remove="Hello.cs" />
+    <Compile Remove="Inheritance.cs" />
     <Compile Remove="StaticField.cs" />
     <Compile Remove="ThisConstructor.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="AccessModifier.cs" />
     <None Include="Constructor.cs" />
     <None Include="DeepCopy.cs" />
     <None Include="Hello.cs" />
+    <None Include="Inheritance.cs" />
     <None Include="StaticField.cs" />
     <None Include="ThisConstructor.cs" />
   </ItemGroup>
