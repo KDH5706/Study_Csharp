@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ExtensionMethod.cs" />
+    <Compile Remove="PositionalPattern.cs" />
+    <Compile Remove="ReadonlyMethod.cs" />
+    <Compile Remove="ReadonlyStruct.cs" />
+    <Compile Remove="Structure.cs" />
+    <Compile Remove="Tuple.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ExtensionMethod.cs" />
+    <None Include="PositionalPattern.cs" />
+    <None Include="ReadonlyMethod.cs" />
+    <None Include="ReadonlyStruct.cs" />
+    <None Include="Structure.cs" />
+    <None Include="Tuple.cs" />
+  </ItemGroup>
+
+</Project>

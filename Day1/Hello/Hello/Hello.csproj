@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AccessModifier.cs" />
+    <Compile Remove="Constructor.cs" />
+    <Compile Remove="DeepCopy.cs" />
+    <Compile Remove="Hello.cs" />
+    <Compile Remove="Inheritance.cs" />
+    <Compile Remove="MethodHiding.cs" />
+    <Compile Remove="Overriding.cs" />
+    <Compile Remove="ReadonlyFields.cs" />
+    <Compile Remove="StaticField.cs" />
+    <Compile Remove="ThisConstructor.cs" />
+    <Compile Remove="TypeCasting.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="AccessModifier.cs" />
+    <None Include="Constructor.cs" />
+    <None Include="DeepCopy.cs" />
+    <None Include="Hello.cs" />
+    <None Include="Inheritance.cs" />
+    <None Include="MethodHiding.cs" />
+    <None Include="Overriding.cs" />
+    <None Include="ReadonlyFields.cs" />
+    <None Include="StaticField.cs" />
+    <None Include="ThisConstructor.cs" />
+    <None Include="TypeCasting.cs" />
+  </ItemGroup>
+
+</Project>
