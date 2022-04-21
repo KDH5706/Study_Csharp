@@ -6,7 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AbstractClass.cs" />
+    <Compile Remove="ArraySample.cs" />
+    <Compile Remove="ArraySample2.cs" />
+    <Compile Remove="DefaultImplementation.cs" />
+    <Compile Remove="DerivedInterface.cs" />
     <Compile Remove="ExtensionMethod.cs" />
+    <Compile Remove="Interface.cs" />
+    <Compile Remove="MoreOnArray.cs" />
+    <Compile Remove="MultiInterfaceInheritance.cs" />
     <Compile Remove="PositionalPattern.cs" />
     <Compile Remove="ReadonlyMethod.cs" />
     <Compile Remove="ReadonlyStruct.cs" />
@@ -15,7 +23,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="AbstractClass.cs" />
+    <None Include="ArraySample.cs" />
+    <None Include="ArraySample2.cs" />
+    <None Include="DefaultImplementation.cs" />
+    <None Include="DerivedInterface.cs" />
     <None Include="ExtensionMethod.cs" />
+    <None Include="Interface.cs" />
+    <None Include="MoreOnArray.cs" />
+    <None Include="MultiInterfaceInheritance.cs" />
     <None Include="PositionalPattern.cs" />
     <None Include="ReadonlyMethod.cs" />
     <None Include="ReadonlyStruct.cs" />
