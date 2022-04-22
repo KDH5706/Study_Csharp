@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="3DArray.cs" />
+    <Compile Remove="AutoImplementedProperty.cs" />
+    <Compile Remove="Bool.cs" />
+    <Compile Remove="BoxingUnboxing.cs" />
+    <Compile Remove="Enumerable.cs" />
+    <Compile Remove="Indexer.cs" />
+    <Compile Remove="InitOnly.cs" />
+    <Compile Remove="JaggedArray.cs" />
+    <Compile Remove="Object.cs" />
+    <Compile Remove="Property.cs" />
+    <Compile Remove="Record.cs" />
+    <Compile Remove="UsingHashtable.cs" />
+    <Compile Remove="UsingList.cs" />
+    <Compile Remove="UsingQueue.cs" />
+    <Compile Remove="UsingStack.cs" />
+    <Compile Remove="WithExp.cs" />
+    <Compile Remove="Yield.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="3DArray.cs" />
+    <None Include="AutoImplementedProperty.cs" />
+    <None Include="Bool.cs" />
+    <None Include="BoxingUnboxing.cs" />
+    <None Include="Enumerable.cs" />
+    <None Include="Indexer.cs" />
+    <None Include="InitOnly.cs" />
+    <None Include="JaggedArray.cs" />
+    <None Include="Object.cs" />
+    <None Include="Property.cs" />
+    <None Include="Record.cs" />
+    <None Include="WithExp.cs" />
+    <None Include="Yield.cs" />
+    <None Include="UsingHashtable.cs" />
+    <None Include="UsingList.cs" />
+    <None Include="UsingQueue.cs" />
+    <None Include="UsingStack.cs" />
+  </ItemGroup>
+
+</Project>
