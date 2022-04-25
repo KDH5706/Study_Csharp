@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AnoymousType.cs" />
+    <Compile Remove="project1.cs" />
+    <Compile Remove="project1_Sol.cs" />
+    <Compile Remove="project2.cs" />
+    <Compile Remove="project2_Sol.cs" />
+    <Compile Remove="PropertiesInAbstractClass.cs" />
+    <Compile Remove="PropertiesInInterface.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="AnoymousType.cs" />
+    <None Include="project1.cs" />
+    <None Include="project1_Sol.cs" />
+    <None Include="project2.cs" />
+    <None Include="project2_Sol.cs" />
+    <None Include="PropertiesInAbstractClass.cs" />
+    <None Include="PropertiesInInterface.cs" />
+  </ItemGroup>
+
+</Project>
