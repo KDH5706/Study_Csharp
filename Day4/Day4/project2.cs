@@ -13,10 +13,22 @@ namespace project2
     }
     interface flyable
     {
-        void lift_object(Unit obj);
-        void move_object(Unit obj);
-        void land_object(Unit obj);
-        void stop_object(Unit obj);
+        void lift_object(int zpos)
+        {
+            Console.WriteLine("이륙~");
+        }
+        void move_object(int xpos, int ypos)
+        {
+            Console.WriteLine("이동~");
+        }
+        void land_object()
+        {
+            Console.WriteLine("착륙~");
+        }
+        void stop_object()
+        {
+            Console.WriteLine("정지~");
+        }
     }
 
     class Unit
@@ -47,6 +59,10 @@ namespace project2
         {
             return Cur_Hp;
         }
+        public string GetName()
+        {
+            return Name;
+        }
         public void Repaired(int Hp)
         {
             Cur_Hp += Hp;
@@ -59,7 +75,6 @@ namespace project2
             Console.WriteLine($"데미지를 받았습니다. ({Name})");
             Console.WriteLine($"현재 생명력 : {this.Cur_Hp}, 최대 생명력 : {this.Max_Hp}\n");
         }
-
     }
 
     class GroundUnit : Unit
@@ -134,10 +149,37 @@ namespace project2
 
     class Building : Unit
     {
+        private int Xpos;
+        private int Ypos;
+        private int Zpos;
+
         public Building(string Unit_Type, int Max_Hp, string Name)
              : base(Unit_Type, Max_Hp, Name)
         {
 
+        }
+        public void Set_Position(int Xpos, int Ypos, int Zpos)
+        {
+            this.Xpos = Xpos;
+            this.Ypos = Ypos;
+            this.Zpos = Zpos;
+        }
+        public void Get_Position()
+        {
+            Console.WriteLine(GetName());
+            Console.WriteLine($"위치 : X({Xpos}) Y({Ypos}) Z({Zpos})\n");
+        }
+        public int Get_Xpos()
+        {
+            return Xpos;
+        }
+        public int Get_Ypos()
+        {
+            return Ypos;
+        }
+        public int Get_Zpos()
+        {
+            return Zpos;
         }
     }
 
@@ -152,7 +194,7 @@ namespace project2
     class Bunker
         : Building
     {
-        public Banker()
+        public Bunker()
             : base("Mechanical", 350, "Bunker")
         {
         }
@@ -165,6 +207,39 @@ namespace project2
         {
         }
 
+        public void lift_object(int zpos)
+        {
+            Console.Write("이륙! ");
+            int Zpos = Get_Zpos();
+            Zpos += zpos;
+            Set_Position(Get_Xpos(), Get_Ypos(), Zpos);
+            Get_Position();
+        }
+        public void move_object(int xpos, int ypos)
+        {
+            Console.Write("이동! ");
+            int Xpos = Get_Xpos();
+            Xpos += xpos;
+            int Ypos = Get_Ypos();
+            Ypos += ypos;
+            Set_Position(Xpos, Ypos, Get_Zpos());
+            Get_Position();
+
+        }
+        public void land_object()
+        {
+            Console.Write("착륙! ");
+
+            Set_Position(Get_Xpos(), Get_Ypos(), 0);
+            Get_Position();
+        }
+        public void stop_object()
+        {
+            Console.Write("정지! ");
+            Set_Position(Get_Xpos(), Get_Ypos(), Get_Zpos());
+            Get_Position();
+        }
+
     }
     class Factory
         : Building, flyable
@@ -173,9 +248,40 @@ namespace project2
             : base("Mechanical", 1250, "Factory")
         {
         }
+
+        public void lift_object(int zpos)
+        {
+            Console.Write("이륙! ");
+            int Zpos = Get_Zpos();
+            Zpos += zpos;
+            Set_Position(Get_Xpos(), Get_Ypos(), Zpos);
+            Get_Position();
+        }
+        public void move_object(int xpos, int ypos)
+        {
+            Console.Write("이동! ");
+            int Xpos = Get_Xpos();
+            Xpos += xpos;
+            int Ypos = Get_Ypos();
+            Ypos += ypos;
+            Set_Position(Xpos, Ypos, Get_Zpos());
+            Get_Position();
+
+        }
+        public void land_object()
+        {
+            Console.Write("착륙~ ");
+
+            Set_Position(Get_Xpos(), Get_Ypos(), 0);
+            Get_Position();
+        }
+        public void stop_object()
+        {
+            Console.Write("정지~ ");
+            Set_Position(Get_Xpos(), Get_Ypos(), Get_Zpos());
+            Get_Position();
+        }
     }
-
-
 
     class MainApp
     {
@@ -193,6 +299,17 @@ namespace project2
             //scv.Repair(marine);
             scv.Repair(tank);
             scv.Repair(dropship);
+
+
+            Factory factory = new Factory();
+            factory.lift_object(100);
+            factory.move_object(200, 100);
+            factory.land_object();
+
+            Barrack barrack = new Barrack();
+            barrack.lift_object(10);
+            barrack.move_object(30, 200);
+            barrack.land_object();
         }
     }
 }
