@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Project4_Sol.cs" />
+    <Compile Remove="Project5.cs" />
+    <Compile Remove="Project5_Sol.cs" />
+    <Compile Remove="Project6_Sol.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Project4_Sol.cs" />
+    <None Include="Project5.cs" />
+    <None Include="Project5_Sol.cs" />
+    <None Include="Project6_Sol.cs" />
+  </ItemGroup>
+
+</Project>

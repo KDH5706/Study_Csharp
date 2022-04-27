@@ -1,0 +1,5 @@
+1. CurrentDataDisplay 클래스가 두 IObserver, IDisplayElement 인터페이스를 구현하는 배경
+   - CurrentDataDisplay 는 구독자가 되는데, 좀 더 깊게 생각해보면 구독자와 Display 장치 로 구분됨.
+     따라서, 구독자와 관련된 기능은 IObserver 인터페이스로 모으고,
+     Display 장치와 관련된 기능은 IDisplayElement 인터페이스 모아서 관리하는 것이
+     향후의 유지보수에 도움이 되기 때문임.

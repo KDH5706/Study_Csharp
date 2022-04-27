@@ -1,0 +1,120 @@
+using System;
+using System.Collections;
+
+namespace Ex1ForClass
+{
+    interface IRepairable
+    { }
+
+    class Unit
+    {
+        private int hitPoint;
+        private int maxHitPoint;
+
+        public Unit(int hitPoint)
+        {
+            this.hitPoint = hitPoint;
+            this.maxHitPoint = 200;
+        }
+
+        public int getHitPoint()
+        {
+            return this.hitPoint;
+        }
+
+        public void setHitPoint(int hitPoint)
+        {
+            this.hitPoint = hitPoint;
+        }
+
+        public int getMaxHitPoint()
+        {
+            return this.maxHitPoint;
+        }
+    }
+
+    class GroundUnit : Unit
+    {
+        public GroundUnit(int hitPoint) : base(hitPoint)
+        {
+            Console.WriteLine("GroundUnit() 생성자 호출됨.");
+        }
+    }
+
+    class AirUnit : Unit
+    {
+        public AirUnit(int hitPoint) : base(hitPoint)
+        {
+            Console.WriteLine("AirUnit() 생성자 호출됨.");
+        }
+    }
+
+    class Tank : GroundUnit, IRepairable
+    {
+        public Tank(int hitPoint) : base(hitPoint)
+        {
+            Console.WriteLine("GroundUnit() 생성자 호출됨.");
+        }
+    }
+
+    class Dropship : AirUnit, IRepairable
+    {
+        public Dropship(int hitPoint) : base(hitPoint)
+        {
+            Console.WriteLine("GroundUnit() 생성자 호출됨.");
+        }
+    }
+
+    class Marine : GroundUnit
+    {
+        public Marine(int hitPoint) : base(hitPoint)
+        {
+            Console.WriteLine("GroundUnit() 생성자 호출됨.");
+        }
+    }
+
+    class SCV : GroundUnit, IRepairable
+    {
+        public SCV(int hitPoint) : base(hitPoint)
+        {
+            Console.WriteLine("GroundUnit() 생성자 호출됨.");
+        }
+
+        public void repair(IRepairable repairableUnit)
+        {
+            if (repairableUnit is Marine) {
+                Console.WriteLine("수리할 수 없는 Unit 입니다.");
+            }
+            else
+            {
+                Unit u = (Unit)repairableUnit;
+                int hitPoint = u.getHitPoint();
+                while (u.getHitPoint() != u.getMaxHitPoint())
+                {
+                    /* Unit의 HP를 증가시킨다. */
+                    u.setHitPoint(hitPoint++);
+                }
+                Console.WriteLine("수리가 끝났습니다.");
+            }
+        }
+    }
+
+
+
+
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            Tank tank = new Tank(100);
+            Dropship dropship = new Dropship(100);
+
+            Marine marine = new Marine(100);
+            SCV scv = new SCV(100);
+
+            scv.repair(tank);
+            scv.repair(dropship);
+            //scv.repair(marine);	
+        }
+    }
+}

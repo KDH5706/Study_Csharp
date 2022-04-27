@@ -1,0 +1,135 @@
+﻿using System;
+using System.Collections;
+
+namespace Ex4ForClass
+{
+    public interface Observer
+    {
+        public void update(string msg);
+    }
+
+    public interface Subject
+    {
+        public void registerObserver(Observer o);
+        public void removeObserver(Observer o);
+        public void notifyObservers();
+    }
+
+    class AnnouncementForStudent : Subject
+    {
+        private ArrayList students;
+        private string noticeMsg;
+
+        public AnnouncementForStudent()
+        {
+            this.students = new ArrayList();
+        }
+
+        public void registerObserver(Observer o)
+        {
+            this.students.Add(o);
+        }
+
+        public void removeObserver(Observer o)
+        {
+            this.students.Remove(o);
+        }
+
+        public void notifyObservers()
+        {
+            foreach (Student s in students)
+                s.update(this.noticeMsg);
+        }
+
+        public void setNoticeMsg(string newNoticeMsg)
+        {
+            this.noticeMsg = newNoticeMsg;
+            this.notifyObservers();
+        }
+    }
+
+    class AnnouncementForEmployee : Subject
+    {
+        void Subject.notifyObservers()
+        {
+        }
+
+        void Subject.registerObserver(Observer o)
+        {
+        }
+
+        void Subject.removeObserver(Observer o)
+        {
+        }
+    }
+
+    class Student : Observer
+    {
+        private string noticeMsg;
+        private AnnouncementForStudent announce;
+        private string stuName;
+
+        public Student(string stuName)
+        {
+            this.stuName = stuName;
+        }
+
+        public void update(string newNoticeMsg)
+        {
+            this.noticeMsg = newNoticeMsg;
+            display();
+        }
+
+        public void registerAnnouncement(AnnouncementForStudent announce)
+        {
+            this.announce = announce;
+        }
+
+        public void display()
+        {
+            Console.WriteLine($"{this.stuName} 학생을 위한 새로운 공지 : {this.noticeMsg}");
+        }
+    }
+
+    class Employee : Observer
+    {
+        public void update(string msg)
+        {
+        }
+    }
+
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            AnnouncementForStudent anounceForStu = new AnnouncementForStudent();
+            Student student1 = new Student("홍길동");
+            anounceForStu.registerObserver(student1);
+
+            Student student2 = new Student("강남길");
+            anounceForStu.registerObserver(student2);
+
+            Student student3 = new Student("이문수");
+            anounceForStu.registerObserver(student3);
+
+            anounceForStu.setNoticeMsg("1 번째 공지 입니다.");
+            Console.WriteLine();
+
+            anounceForStu.setNoticeMsg("2 번째 공지 입니다.");
+            Console.WriteLine();
+
+            anounceForStu.setNoticeMsg("3 번째 공지 입니다.");
+            Console.WriteLine();
+
+            anounceForStu.removeObserver(student2);
+
+            anounceForStu.setNoticeMsg("4 번째 공지 입니다.");
+            Console.WriteLine();
+
+            anounceForStu.removeObserver(student1);
+
+            anounceForStu.setNoticeMsg("5 번째 공지 입니다.");
+            Console.WriteLine();
+        }
+    }
+}
