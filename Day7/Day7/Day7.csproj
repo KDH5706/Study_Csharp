@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ConstraintsOnTypeParaneters.cs" />
+    <Compile Remove="CopyingArray.cs" />
+    <Compile Remove="Delegate.cs" />
+    <Compile Remove="EnumerableGeneric.cs" />
+    <Compile Remove="ExceptionFiltering.cs" />
+    <Compile Remove="Finally.cs" />
+    <Compile Remove="Generic.cs" />
+    <Compile Remove="GenericDelegate.cs" />
+    <Compile Remove="KillingProgram.cs" />
+    <Compile Remove="MyException.cs" />
+    <Compile Remove="Throw.cs" />
+    <Compile Remove="ThrowExpression.cs" />
+    <Compile Remove="TryCatch.cs" />
+    <Compile Remove="UsingCallback.cs" />
+    <Compile Remove="UsingDictionary.cs" />
+    <Compile Remove="UsingGenericList.cs" />
+    <Compile Remove="UsingGenericQueue.cs" />
+    <Compile Remove="UsingGenericStack.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ConstraintsOnTypeParaneters.cs" />
+    <None Include="Delegate.cs" />
+    <None Include="EnumerableGeneric.cs" />
+    <None Include="ExceptionFiltering.cs" />
+    <None Include="Finally.cs" />
+    <None Include="Generic.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="CopyingArray.cs" />
+    <None Include="GenericDelegate.cs" />
+    <None Include="KillingProgram.cs" />
+    <None Include="MyException.cs" />
+    <None Include="Throw.cs" />
+    <None Include="ThrowExpression.cs" />
+    <None Include="TryCatch.cs" />
+    <None Include="UsingCallback.cs" />
+    <None Include="UsingGenericList.cs" />
+    <None Include="UsingGenericQueue.cs" />
+    <None Include="UsingGenericStack.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="UsingDictionary.cs" />
+  </ItemGroup>
+
+</Project>
