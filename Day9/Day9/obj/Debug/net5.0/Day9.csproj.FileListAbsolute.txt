@@ -1,0 +1,16 @@
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\obj\Debug\net5.0\Day9.csproj.AssemblyReference.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\obj\Debug\net5.0\Day9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\obj\Debug\net5.0\Day9.AssemblyInfoInputs.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\obj\Debug\net5.0\Day9.AssemblyInfo.cs
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\obj\Debug\net5.0\Day9.csproj.CoreCompileInputs.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\bin\Debug\net5.0\Day9.exe
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\bin\Debug\net5.0\Day9.deps.json
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\bin\Debug\net5.0\Day9.runtimeconfig.json
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\bin\Debug\net5.0\Day9.runtimeconfig.dev.json
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\bin\Debug\net5.0\Day9.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\bin\Debug\net5.0\ref\Day9.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\bin\Debug\net5.0\Day9.pdb
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\obj\Debug\net5.0\Day9.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\obj\Debug\net5.0\ref\Day9.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\obj\Debug\net5.0\Day9.pdb
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day9\Day9\obj\Debug\net5.0\Day9.genruntimeconfig.cache

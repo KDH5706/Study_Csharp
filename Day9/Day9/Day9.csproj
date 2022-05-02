@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ActionTest.cs" />
+    <Compile Remove="ExpressionBodiedMember.cs" />
+    <Compile Remove="ExpressionTreeViaLambda.cs" />
+    <Compile Remove="From.cs" />
+    <Compile Remove="FromFrom.cs" />
+    <Compile Remove="FunTest.cs" />
+    <Compile Remove="GroupBy.cs" />
+    <Compile Remove="Join.cs" />
+    <Compile Remove="MinMaxAvg.cs" />
+    <Compile Remove="SimpleLambda.cs" />
+    <Compile Remove="SimpleLinq.cs" />
+    <Compile Remove="SimpleLinq2.cs" />
+    <Compile Remove="StatementLambda.cs" />
+    <Compile Remove="UsingExpression.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ActionTest.cs" />
+    <None Include="ExpressionBodiedMember.cs" />
+    <None Include="ExpressionTreeViaLambda.cs" />
+    <None Include="From.cs" />
+    <None Include="FromFrom.cs" />
+    <None Include="FunTest.cs" />
+    <None Include="GroupBy.cs" />
+    <None Include="Join.cs" />
+    <None Include="MinMaxAvg.cs" />
+    <None Include="SimpleLambda.cs" />
+    <None Include="SimpleLinq.cs" />
+    <None Include="SimpleLinq2.cs" />
+    <None Include="StatementLambda.cs" />
+    <None Include="UsingExpression.cs" />
+  </ItemGroup>
+
+</Project>

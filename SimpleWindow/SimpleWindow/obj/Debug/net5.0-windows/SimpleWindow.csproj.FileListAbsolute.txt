@@ -1,0 +1,16 @@
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\bin\Debug\net5.0-windows\SimpleWindow.exe
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\bin\Debug\net5.0-windows\SimpleWindow.deps.json
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\bin\Debug\net5.0-windows\SimpleWindow.runtimeconfig.json
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\bin\Debug\net5.0-windows\SimpleWindow.runtimeconfig.dev.json
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\bin\Debug\net5.0-windows\SimpleWindow.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\bin\Debug\net5.0-windows\ref\SimpleWindow.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\bin\Debug\net5.0-windows\SimpleWindow.pdb
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\obj\Debug\net5.0-windows\SimpleWindow.csproj.AssemblyReference.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\obj\Debug\net5.0-windows\SimpleWindow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\obj\Debug\net5.0-windows\SimpleWindow.AssemblyInfoInputs.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\obj\Debug\net5.0-windows\SimpleWindow.AssemblyInfo.cs
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\obj\Debug\net5.0-windows\SimpleWindow.csproj.CoreCompileInputs.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\obj\Debug\net5.0-windows\SimpleWindow.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\obj\Debug\net5.0-windows\ref\SimpleWindow.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\obj\Debug\net5.0-windows\SimpleWindow.pdb
+C:\Users\PKNU\Desktop\KDH\Visual\C#\SimpleWindow\SimpleWindow\obj\Debug\net5.0-windows\SimpleWindow.genruntimeconfig.cache
