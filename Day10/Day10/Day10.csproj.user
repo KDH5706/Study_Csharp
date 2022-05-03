@@ -2,22 +2,17 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <None Update="FormSize.cs">
+    <None Update="FormAndControl.cs">
       <SubType>Form</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Update="FormEvent.cs">
+    <None Update="FormStyle.cs">
       <SubType>Form</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Update="UsingApplication.cs">
-      <SubType>Form</SubType>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Update="Program.cs">
+    <None Update="FormBackgruound.cs">
       <SubType>Form</SubType>
     </None>
   </ItemGroup>

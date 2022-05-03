@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <DisableWinExeOutputinference>true</DisableWinExeOutputinference>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BasicIO.cs" />
+    <Compile Remove="BinaryFile.cs" />
+    <Compile Remove="Dir.cs" />
+    <Compile Remove="FormAndControl.cs" />
+    <Compile Remove="FormBackgruound.cs" />
+    <Compile Remove="FormSize.cs" />
+    <Compile Remove="FormStyle.cs" />
+    <Compile Remove="SeqRand.cs" />
+    <Compile Remove="Touch.cs" />
+    <Compile Remove="UsingDeclaration.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="BasicIO.cs" />
+    <None Include="BinaryFile.cs" />
+    <None Include="Dir.cs" />
+    <None Include="FormAndControl.cs" />
+    <None Include="FormBackgruound.cs" />
+    <None Include="FormStyle.cs" />
+    <None Include="SeqRand.cs" />
+    <None Include="Touch.cs" />
+    <None Include="UsingDeclaration.cs" />
+  </ItemGroup>
+
+</Project>

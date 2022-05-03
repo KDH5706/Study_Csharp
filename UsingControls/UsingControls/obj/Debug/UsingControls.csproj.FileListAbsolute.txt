@@ -1,0 +1,10 @@
+C:\Users\PKNU\Desktop\KDH\Visual\C#\UsingControls\UsingControls\bin\Debug\UsingControls.exe.config
+C:\Users\PKNU\Desktop\KDH\Visual\C#\UsingControls\UsingControls\bin\Debug\UsingControls.exe
+C:\Users\PKNU\Desktop\KDH\Visual\C#\UsingControls\UsingControls\bin\Debug\UsingControls.pdb
+C:\Users\PKNU\Desktop\KDH\Visual\C#\UsingControls\UsingControls\obj\Debug\UsingControls.csproj.AssemblyReference.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\UsingControls\UsingControls\obj\Debug\UsingControls.MainForm.resources
+C:\Users\PKNU\Desktop\KDH\Visual\C#\UsingControls\UsingControls\obj\Debug\UsingControls.Properties.Resources.resources
+C:\Users\PKNU\Desktop\KDH\Visual\C#\UsingControls\UsingControls\obj\Debug\UsingControls.csproj.GenerateResource.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\UsingControls\UsingControls\obj\Debug\UsingControls.csproj.CoreCompileInputs.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\UsingControls\UsingControls\obj\Debug\UsingControls.exe
+C:\Users\PKNU\Desktop\KDH\Visual\C#\UsingControls\UsingControls\obj\Debug\UsingControls.pdb

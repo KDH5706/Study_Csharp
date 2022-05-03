@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Compile Remove="FormEvent.cs" />
+    <Compile Remove="FormSize.cs" />
     <Compile Remove="MessageFilter.cs" />
     <Compile Remove="Program.cs" />
     <Compile Remove="UsingApplication.cs" />
@@ -16,6 +17,7 @@
 
   <ItemGroup>
     <None Include="FormEvent.cs" />
+    <None Include="FormSize.cs" />
     <None Include="MessageFilter.cs" />
     <None Include="Program.cs" />
     <None Include="UsingApplication.cs" />
