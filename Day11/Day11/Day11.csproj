@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <DisableWinExeOutputinference>true</DisableWinExeOutputinference>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AbortingThread.cs" />
+    <Compile Remove="BasicThread.cs" />
+    <Compile Remove="InterruptingThread.cs" />
+    <Compile Remove="Serialization.cs" />
+    <Compile Remove="SerializingCollection.cs" />
+    <Compile Remove="Synchronize.cs" />
+    <Compile Remove="UsingMonitor.cs" />
+    <Compile Remove="UsingThreadState.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="AbortingThread.cs" />
+    <None Include="BasicThread.cs" />
+    <None Include="InterruptingThread.cs" />
+    <None Include="Serialization.cs" />
+    <None Include="SerializingCollection.cs" />
+    <None Include="Synchronize.cs" />
+    <None Include="UsingMonitor.cs" />
+    <None Include="UsingThreadState.cs" />
+  </ItemGroup>
+
+</Project>

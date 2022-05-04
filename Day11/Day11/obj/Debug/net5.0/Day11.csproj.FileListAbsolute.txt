@@ -1,0 +1,16 @@
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\obj\Debug\net5.0\Day11.csproj.AssemblyReference.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\obj\Debug\net5.0\Day11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\obj\Debug\net5.0\Day11.AssemblyInfoInputs.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\obj\Debug\net5.0\Day11.AssemblyInfo.cs
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\obj\Debug\net5.0\Day11.csproj.CoreCompileInputs.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\bin\Debug\net5.0\Day11.exe
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\bin\Debug\net5.0\Day11.deps.json
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\bin\Debug\net5.0\Day11.runtimeconfig.json
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\bin\Debug\net5.0\Day11.runtimeconfig.dev.json
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\bin\Debug\net5.0\Day11.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\bin\Debug\net5.0\ref\Day11.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\bin\Debug\net5.0\Day11.pdb
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\obj\Debug\net5.0\Day11.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\obj\Debug\net5.0\ref\Day11.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\obj\Debug\net5.0\Day11.pdb
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day11\Day11\obj\Debug\net5.0\Day11.genruntimeconfig.cache
