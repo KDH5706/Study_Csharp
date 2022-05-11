@@ -1,0 +1,10 @@
+C:\Users\PKNU\Desktop\KDH\Visual\C#\AsyncFileOWinForm\AsyncFileOWinForm\bin\Debug\AsyncFileOWinForm.exe.config
+C:\Users\PKNU\Desktop\KDH\Visual\C#\AsyncFileOWinForm\AsyncFileOWinForm\bin\Debug\AsyncFileOWinForm.exe
+C:\Users\PKNU\Desktop\KDH\Visual\C#\AsyncFileOWinForm\AsyncFileOWinForm\bin\Debug\AsyncFileOWinForm.pdb
+C:\Users\PKNU\Desktop\KDH\Visual\C#\AsyncFileOWinForm\AsyncFileOWinForm\obj\Debug\AsyncFileOWinForm.csproj.AssemblyReference.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\AsyncFileOWinForm\AsyncFileOWinForm\obj\Debug\AsyncFileOWinForm.Properties.Resources.resources
+C:\Users\PKNU\Desktop\KDH\Visual\C#\AsyncFileOWinForm\AsyncFileOWinForm\obj\Debug\AsyncFileOWinForm.csproj.GenerateResource.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\AsyncFileOWinForm\AsyncFileOWinForm\obj\Debug\AsyncFileOWinForm.csproj.CoreCompileInputs.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\AsyncFileOWinForm\AsyncFileOWinForm\obj\Debug\AsyncFileOWinForm.exe
+C:\Users\PKNU\Desktop\KDH\Visual\C#\AsyncFileOWinForm\AsyncFileOWinForm\obj\Debug\AsyncFileOWinForm.pdb
+C:\Users\PKNU\Desktop\KDH\Visual\C#\AsyncFileOWinForm\AsyncFileOWinForm\obj\Debug\AsyncFileOWinForm.MainForm.resources
