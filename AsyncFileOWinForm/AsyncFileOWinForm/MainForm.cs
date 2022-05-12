@@ -86,14 +86,14 @@ namespace AsyncFileOWinForm
             InitializeComponent();
         }
 
-        private void btnFindSource_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog dlg = new OpenFileDialog();
-            if(dlg.ShowDialog() == DialogResult.OK)
-            {
-                txtSource.Text = dlg.FileName;
-            }
-        }
+        //private void btnFindSource_Click(object sender, EventArgs e)
+        //{
+        //    OpenFileDialog dlg = new OpenFileDialog();
+        //    if(dlg.ShowDialog() == DialogResult.OK)
+        //    {
+        //        txtSource.Text = dlg.FileName;
+        //    }
+        //}
 
         private void btnFindTarget_Click(object sender, EventArgs e)
         {
@@ -116,6 +116,16 @@ namespace AsyncFileOWinForm
         private void btnCancel_Click(object sender, EventArgs e)
         {
             MessageBox.Show("UI 반응 테스트 성공.");
+        }
+
+        private void test_Click(object sender, EventArgs e)
+        {
+
+            OpenFileDialog dlg = new OpenFileDialog();
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+                txtSource.Text = dlg.FileName;
+            }
         }
     }
 }

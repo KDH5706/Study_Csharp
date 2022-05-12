@@ -39,12 +39,12 @@ namespace AsyncFileOWinForm
             this.lblTarget = new System.Windows.Forms.Label();
             this.txtSource = new System.Windows.Forms.TextBox();
             this.txtTarget = new System.Windows.Forms.TextBox();
-            this.btnFindSource = new System.Windows.Forms.Button();
             this.btnFindTarget = new System.Windows.Forms.Button();
             this.btnAsyncCopy = new System.Windows.Forms.Button();
             this.btnSyncCopy = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.pbCopy = new System.Windows.Forms.ProgressBar();
+            this.test = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblSource
@@ -79,16 +79,6 @@ namespace AsyncFileOWinForm
             this.txtTarget.Name = "txtTarget";
             this.txtTarget.Size = new System.Drawing.Size(412, 21);
             this.txtTarget.TabIndex = 10;
-            // 
-            // btnFindSource
-            // 
-            this.btnFindSource.Location = new System.Drawing.Point(598, 99);
-            this.btnFindSource.Name = "btnFindSource";
-            this.btnFindSource.Size = new System.Drawing.Size(55, 22);
-            this.btnFindSource.TabIndex = 7;
-            this.btnFindSource.Text = "...";
-            this.btnFindSource.UseVisualStyleBackColor = true;
-            this.btnFindSource.Click += new System.EventHandler(this.btnFindSource_Click);
             // 
             // btnFindTarget
             // 
@@ -137,17 +127,28 @@ namespace AsyncFileOWinForm
             this.pbCopy.Size = new System.Drawing.Size(485, 41);
             this.pbCopy.TabIndex = 5;
             // 
+            // test
+            // 
+            this.test.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.test.Location = new System.Drawing.Point(598, 100);
+            this.test.Name = "test";
+            this.test.Size = new System.Drawing.Size(55, 22);
+            this.test.TabIndex = 12;
+            this.test.Text = "...";
+            this.test.UseVisualStyleBackColor = true;
+            this.test.Click += new System.EventHandler(this.test_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.test);
             this.Controls.Add(this.lblTarget);
             this.Controls.Add(this.lblSource);
             this.Controls.Add(this.txtTarget);
             this.Controls.Add(this.txtSource);
             this.Controls.Add(this.btnFindTarget);
-            this.Controls.Add(this.btnFindSource);
             this.Controls.Add(this.btnAsyncCopy);
             this.Controls.Add(this.btnSyncCopy);
             this.Controls.Add(this.btnCancel);
@@ -165,12 +166,12 @@ namespace AsyncFileOWinForm
         private System.Windows.Forms.Label lblTarget;
         private System.Windows.Forms.TextBox txtSource;
         private System.Windows.Forms.TextBox txtTarget;
-        private System.Windows.Forms.Button btnFindSource;
         private System.Windows.Forms.Button btnFindTarget;
         private System.Windows.Forms.Button btnAsyncCopy;
         private System.Windows.Forms.Button btnSyncCopy;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.ProgressBar pbCopy;
+        private System.Windows.Forms.Button test;
     }
 }
 

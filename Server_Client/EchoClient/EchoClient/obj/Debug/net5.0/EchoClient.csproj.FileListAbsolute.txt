@@ -1,0 +1,16 @@
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\obj\Debug\net5.0\EchoClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\obj\Debug\net5.0\EchoClient.AssemblyInfoInputs.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\obj\Debug\net5.0\EchoClient.AssemblyInfo.cs
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\obj\Debug\net5.0\EchoClient.csproj.CoreCompileInputs.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\bin\Debug\net5.0\EchoClient.exe
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\bin\Debug\net5.0\EchoClient.deps.json
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\bin\Debug\net5.0\EchoClient.runtimeconfig.json
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\bin\Debug\net5.0\EchoClient.runtimeconfig.dev.json
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\bin\Debug\net5.0\EchoClient.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\bin\Debug\net5.0\ref\EchoClient.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\bin\Debug\net5.0\EchoClient.pdb
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\obj\Debug\net5.0\EchoClient.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\obj\Debug\net5.0\ref\EchoClient.dll
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\obj\Debug\net5.0\EchoClient.pdb
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\obj\Debug\net5.0\EchoClient.genruntimeconfig.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoClient\EchoClient\obj\Debug\net5.0\EchoClient.csproj.AssemblyReference.cache
