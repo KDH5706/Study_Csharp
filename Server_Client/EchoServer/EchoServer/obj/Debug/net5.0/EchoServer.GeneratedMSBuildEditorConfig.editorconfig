@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = EchoServer
-build_property.ProjectDir = C:\Users\PKNU\Desktop\KDH\Visual\C#\EchoServer\EchoServer\
+build_property.ProjectDir = C:\Users\PKNU\Desktop\KDH\Visual\C#\Server_Client\EchoServer\EchoServer\

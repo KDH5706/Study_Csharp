@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\FileReceiver\\FileReceiver\\FileReceiver.csproj",
+      "projectUniqueName": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\FileUpload\\FileReceiver\\FileReceiver\\FileReceiver.csproj",
       "projectName": "FileReceiver",
-      "projectPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\FileReceiver\\FileReceiver\\FileReceiver.csproj",
+      "projectPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\FileUpload\\FileReceiver\\FileReceiver\\FileReceiver.csproj",
       "packagesPath": "C:\\Users\\PKNU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\FileReceiver\\FileReceiver\\obj\\",
+      "outputPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\FileUpload\\FileReceiver\\FileReceiver\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PKNU\\AppData\\Roaming\\NuGet\\NuGet.Config",

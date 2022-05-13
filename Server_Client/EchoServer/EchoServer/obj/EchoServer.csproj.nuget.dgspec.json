@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\EchoServer\\EchoServer\\EchoServer.csproj": {}
+    "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\Server_Client\\EchoServer\\EchoServer\\EchoServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\EchoServer\\EchoServer\\EchoServer.csproj": {
+    "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\Server_Client\\EchoServer\\EchoServer\\EchoServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\EchoServer\\EchoServer\\EchoServer.csproj",
+        "projectUniqueName": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\Server_Client\\EchoServer\\EchoServer\\EchoServer.csproj",
         "projectName": "EchoServer",
-        "projectPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\EchoServer\\EchoServer\\EchoServer.csproj",
+        "projectPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\Server_Client\\EchoServer\\EchoServer\\EchoServer.csproj",
         "packagesPath": "C:\\Users\\PKNU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\EchoServer\\EchoServer\\obj\\",
+        "outputPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\Server_Client\\EchoServer\\EchoServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PKNU\\AppData\\Roaming\\NuGet\\NuGet.Config",

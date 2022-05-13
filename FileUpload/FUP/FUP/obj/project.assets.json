@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\FUP\\FUP\\FUP.csproj",
+      "projectUniqueName": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\FileUpload\\FUP\\FUP\\FUP.csproj",
       "projectName": "FUP",
-      "projectPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\FUP\\FUP\\FUP.csproj",
+      "projectPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\FileUpload\\FUP\\FUP\\FUP.csproj",
       "packagesPath": "C:\\Users\\PKNU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\FUP\\FUP\\obj\\",
+      "outputPath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\FileUpload\\FUP\\FUP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PKNU\\AppData\\Roaming\\NuGet\\NuGet.Config",

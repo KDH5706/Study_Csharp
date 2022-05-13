@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "70FsT+ek7MjgCXiXe+cJ0JzX29UKKlAV4looFOch0gLD0kRntsfbE1Mqqj/4Ezg+2hZEaNc6SHXoNBJGmifaKw==",
+  "dgSpecHash": "vND4cy8DUptF2VQuiK360owoJzMH+63HZyPNSEOldONQ6lFFoUNkn596zNZFQ28ytFw8h/r8FAnC22QcSxti/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\EchoServer\\EchoServer\\EchoServer.csproj",
+  "projectFilePath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\Server_Client\\EchoServer\\EchoServer\\EchoServer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

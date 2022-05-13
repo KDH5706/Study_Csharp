@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jRzSqfUKfbNWXFMOVxsW0uSMqu/Zutz7fToTQnZgeqqbvxyMQAYxYTaTIs93LMWAb+ZcBw8jszqNil/PIHx8uw==",
+  "dgSpecHash": "s2X1nFxqc8ZOdqRX0//ngSYFbwDsXw2eVAwee2zVFatTbbMidvgITuHF9OETOe//nbqcV8H3gmkQx2NvEmiLYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\FileReceiver\\FileReceiver\\FileReceiver.csproj",
+  "projectFilePath": "C:\\Users\\PKNU\\Desktop\\KDH\\Visual\\C#\\FileUpload\\FileReceiver\\FileReceiver\\FileReceiver.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
