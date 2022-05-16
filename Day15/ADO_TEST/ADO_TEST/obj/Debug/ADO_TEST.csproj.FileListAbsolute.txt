@@ -1,0 +1,10 @@
+C:\Users\PKNU\Desktop\KDH\Visual\C#\ADO_TEST\ADO_TEST\bin\Debug\ADO_TEST.exe.config
+C:\Users\PKNU\Desktop\KDH\Visual\C#\ADO_TEST\ADO_TEST\bin\Debug\ADO_TEST.exe
+C:\Users\PKNU\Desktop\KDH\Visual\C#\ADO_TEST\ADO_TEST\bin\Debug\ADO_TEST.pdb
+C:\Users\PKNU\Desktop\KDH\Visual\C#\ADO_TEST\ADO_TEST\obj\Debug\ADO_TEST.csproj.AssemblyReference.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\ADO_TEST\ADO_TEST\obj\Debug\ADO_TEST.Form1.resources
+C:\Users\PKNU\Desktop\KDH\Visual\C#\ADO_TEST\ADO_TEST\obj\Debug\ADO_TEST.Properties.Resources.resources
+C:\Users\PKNU\Desktop\KDH\Visual\C#\ADO_TEST\ADO_TEST\obj\Debug\ADO_TEST.csproj.GenerateResource.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\ADO_TEST\ADO_TEST\obj\Debug\ADO_TEST.csproj.CoreCompileInputs.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\ADO_TEST\ADO_TEST\obj\Debug\ADO_TEST.exe
+C:\Users\PKNU\Desktop\KDH\Visual\C#\ADO_TEST\ADO_TEST\obj\Debug\ADO_TEST.pdb

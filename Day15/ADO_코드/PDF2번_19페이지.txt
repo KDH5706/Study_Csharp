@@ -1,0 +1,25 @@
+		private void btnRollback_Click(object sender, EventArgs e) {
+			SqlTransaction Tr = Con.BeginTransaction();
+			SqlCommand Com = Con.CreateCommand();
+			Com.Connection = Con;
+			Com.Transaction = Tr;
+			Com.CommandText = "UPDATE tblPeople SET Age = Age + 1 WHERE Name = '정우성'";
+			Com.ExecuteNonQuery();
+			Com.CommandText = "UPDATE tblPeople SET Age = Age - 1 WHERE Name = '배용준'";
+			Com.ExecuteNonQuery();
+			Tr.Rollback();
+			PrintTable();
+		}
+
+		private void btnCommit_Click(object sender, EventArgs e) {
+			SqlTransaction Tr = Con.BeginTransaction();
+			SqlCommand Com = Con.CreateCommand();
+			Com.Connection = Con;
+			Com.Transaction = Tr;
+			Com.CommandText = "UPDATE tblPeople SET Age = Age + 1 WHERE Name = '정우성'";
+			Com.ExecuteNonQuery();
+			Com.CommandText = "UPDATE tblPeople SET Age = Age - 1 WHERE Name = '배용준'";
+			Com.ExecuteNonQuery();
+			Tr.Commit();
+			PrintTable();
+		}

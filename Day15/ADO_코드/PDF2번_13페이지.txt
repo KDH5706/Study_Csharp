@@ -1,0 +1,7 @@
+		private void btnInsert1_Click(object sender, EventArgs e) {
+			string Sql = string.Format("INSERT INTO tblPeople VALUES ('{0}',{1},{2})",
+				textName.Text, textAge.Text, checkMale.Checked ? 1 : 0);
+			SqlCommand Com = new SqlCommand(Sql, Con);
+			Com.ExecuteNonQuery();
+			PrintTable();
+		}
