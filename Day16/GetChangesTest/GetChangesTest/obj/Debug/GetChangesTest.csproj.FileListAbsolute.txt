@@ -1,0 +1,10 @@
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\GetChangesTest\GetChangesTest\bin\Debug\GetChangesTest.exe.config
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\GetChangesTest\GetChangesTest\bin\Debug\GetChangesTest.exe
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\GetChangesTest\GetChangesTest\bin\Debug\GetChangesTest.pdb
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\GetChangesTest\GetChangesTest\obj\Debug\GetChangesTest.csproj.AssemblyReference.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\GetChangesTest\GetChangesTest\obj\Debug\GetChangesTest.Form1.resources
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\GetChangesTest\GetChangesTest\obj\Debug\GetChangesTest.Properties.Resources.resources
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\GetChangesTest\GetChangesTest\obj\Debug\GetChangesTest.csproj.GenerateResource.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\GetChangesTest\GetChangesTest\obj\Debug\GetChangesTest.csproj.CoreCompileInputs.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\GetChangesTest\GetChangesTest\obj\Debug\GetChangesTest.exe
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\GetChangesTest\GetChangesTest\obj\Debug\GetChangesTest.pdb

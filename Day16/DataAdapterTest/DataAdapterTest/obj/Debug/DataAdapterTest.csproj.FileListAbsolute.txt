@@ -1,0 +1,10 @@
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\DataAdapterTest\DataAdapterTest\bin\Debug\DataAdapterTest.exe.config
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\DataAdapterTest\DataAdapterTest\bin\Debug\DataAdapterTest.exe
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\DataAdapterTest\DataAdapterTest\bin\Debug\DataAdapterTest.pdb
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\DataAdapterTest\DataAdapterTest\obj\Debug\DataAdapterTest.csproj.AssemblyReference.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\DataAdapterTest\DataAdapterTest\obj\Debug\DataAdapterTest.Form1.resources
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\DataAdapterTest\DataAdapterTest\obj\Debug\DataAdapterTest.Properties.Resources.resources
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\DataAdapterTest\DataAdapterTest\obj\Debug\DataAdapterTest.csproj.GenerateResource.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\DataAdapterTest\DataAdapterTest\obj\Debug\DataAdapterTest.csproj.CoreCompileInputs.cache
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\DataAdapterTest\DataAdapterTest\obj\Debug\DataAdapterTest.exe
+C:\Users\PKNU\Desktop\KDH\Visual\C#\Day16\DataAdapterTest\DataAdapterTest\obj\Debug\DataAdapterTest.pdb
