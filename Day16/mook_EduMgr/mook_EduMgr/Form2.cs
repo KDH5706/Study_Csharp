@@ -21,6 +21,7 @@ namespace mook_EduMgr
 
         private string Constr = "Server=(local);database=ADOTest;" +
                 "Integrated Security=true";
+
         public int EduNum = 0;
 
         List<string> subtmp = new List<string>();
@@ -120,11 +121,6 @@ namespace mook_EduMgr
             {
                 this.lbMySubject.Items.Remove(s);
             }
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void btnSave_Click(object sender, EventArgs e)

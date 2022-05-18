@@ -21,11 +21,6 @@ namespace mook_EduMgr
         private string Constr = "Server=(local);database=ADOTest;" +
                 "Integrated Security=true";
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnLogin_Click(object sender, EventArgs e)
         {
             SqlConnection Conn = new SqlConnection(Constr);
